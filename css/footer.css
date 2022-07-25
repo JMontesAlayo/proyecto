@@ -1,0 +1,355 @@
+/* footer */
+.footer {
+    background: #fafafa;
+}
+
+.footer__container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:100px 0;
+    height: auto;
+}
+
+.download {
+    width: 50%;
+}
+
+.title__footer{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.download__app{
+    display: flex;
+}
+
+.download__item {
+    display: flex;
+    padding: 18px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--black2);
+    width: 42%;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.download__logo {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.download__title {
+    font-size: 18px;
+}
+
+.footer__copy {
+    width: 100%;
+    color: var(--black2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    width: 100%;
+}
+
+.politica__privacidad {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.politica__privacidad--margin{
+    margin-right: 10px;
+}
+
+.politica__privacidad:hover{
+    text-decoration: underline;
+}
+
+.joinus{
+    width: 50%;
+}
+
+/* .redsocial{
+    margin-top: 24px;
+    display: flex;
+    color: var(--black2);
+} */
+
+.redsocial__legend {
+    color: var(--black2);
+    margin-right: 16px;
+}
+
+/* .redsocial__icon {
+    font-size: 18px;
+    margin-right: 30px;
+    display: inline-block;
+} */
+
+.contact {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.contact__item {
+    width: 25%;
+    padding: 60px 0;
+    text-align: center;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+
+}
+
+.contact__item--gold {
+    background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
+    color: var(--black1);
+}
+
+.contact__icon {
+    font-size: 14px;
+    color: var(--gold1);
+    line-height: 20px;
+    margin-right: 4px;
+}
+
+.contact__icon--modifier {
+    color: var(--black1);
+}
+
+.contact__title {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.site-footer-proyecto
+{
+    background-color: #fafafa;
+    ;
+    padding:45px 17px 30px;
+    font-size:15px;
+    line-height:24px;
+    color:#fffbf4;
+    
+}
+
+.site-footer-proyecto hr
+{
+    border-top-color:#fffbf4;
+    opacity:0.5
+}
+
+.site-footer-proyecto hr.small
+{
+    margin:20px 0
+}
+
+.site-footer-proyecto h6
+{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+
+.site-footer-proyecto a
+{
+    color:#fffbf4;
+}
+
+.site-footer-proyecto a:hover
+{
+    color:#3366cc;
+    text-decoration:none;
+}
+
+.footer-links-proyecto
+{
+    padding-left:0;
+    list-style:none
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-links-proyecto li
+{
+    display:block
+}
+
+.footer-links-proyecto a
+{
+    color:#fffbf4
+}
+
+.footer-links-proyecto a:active,.footer-links-proyecto a:focus,.footer-links a:hover
+{
+    color:#20b9d8;
+    text-decoration:none;
+}
+
+.footer-links-proyecto.inline li
+{
+    display:inline-block
+}
+
+.site-footer-proyecto .social-icons
+{
+    text-align:right
+}
+
+.site-footer-proyecto .social-icons a
+{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#002741
+}
+
+.copyright-text
+{
+    margin:0
+}
+
+
+@media (max-width:900px){
+    .startnow{
+        width: 80%;
+    }
+
+    .download{
+        width: 100%;
+    }
+
+    .download__app{
+        justify-content: space-between;
+    }
+
+    .download__item{
+        width: 45%;
+    }
+
+    .joinus{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /* .redsocial__icon{
+        font-size: 18px;
+    } */
+
+    .redsocial__legend{
+        font-size: 18px;
+    }
+}
+
+
+}
+@media (max-width:991px)
+{
+  .site-footer-proyecto [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer-proyecto
+  {
+    padding-bottom:0
+  }
+  .site-footer-proyecto .copyright-text,.site-footer-proyecto .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons  a{
+  background-color:#eceeef;
+  color:#fffbf4;
+  font-size:28px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons  a:active,.social-icons  a:focus,.social-icons  a:hover
+{
+    font-size: 39px;
+  color:#fff;
+  background-color:#29aafe
+  
+}
+.social-icons .size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  
+  background-color:#3b5998
+}
+.social-icons  a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}

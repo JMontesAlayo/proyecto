@@ -1,0 +1,137 @@
+/* email  */
+
+.email {
+    background-image: linear-gradient(45deg, #f6cd8f 70%, #f4bd76 40%);
+}
+
+.email__container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:100px 0;
+    height: auto;
+}
+
+.email__subtitle {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.email__paragraph {
+    color: var(--black2);
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.achievements {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.achievement__item {
+    width: 30%;
+    padding-right: 10px;
+    display: flex;
+    border-right: 2px solid var(--black2);
+}
+
+.achievement-check {
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.achievement__number {
+    font-weight: 700;
+}
+
+.achievement__paragraph {
+    font-weight: 300;
+}
+
+.startnow {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: auto;
+    font-family: inherit;
+    position: relative;
+    border-radius: 6px;
+}
+
+.startnow--modifier{
+    margin: 0;
+    width: 80%;
+}
+
+.startnow__input {
+    width: 100%;
+    height: 100%;
+    padding: 22px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid var(--black1);
+}
+
+.startnow__submit {
+    position: absolute;
+    right: 8px;
+    top: 10%;
+    height: 80%;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    color: #fff;
+    padding: 0 15px;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+@media (max-width:500px){
+    .email__subtitle {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .email__paragraph {
+        color: var(--black2);
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .achievement__number {
+        padding-left: 3rem;
+    }
+    
+    .achievement__paragraph {
+        padding-left: 3rem;
+    }
+
+    .achievements {
+    display: flex;
+    flex-direction: column;
+    }
+
+    
+}

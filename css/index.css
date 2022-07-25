@@ -1,0 +1,33 @@
+@import './variables.css';
+@import './header.css';
+@import './hero.css';
+@import './services.css';
+@import './projects.css';
+@import './testimony.css';
+@import './email.css';
+@import './footer.css';
+
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media (max-width:900px){
+    
+
+    
+    
+
+    
+}
+
+
+
